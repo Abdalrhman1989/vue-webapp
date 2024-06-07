@@ -2,18 +2,21 @@
     "env": {
       "browser": true,
       "es2021": true,
-      "node": true
+      "node": true,
+      "cypress/globals": true
     },
     "extends": [
       "eslint:recommended",
-      "plugin:vue/vue3-recommended"
+      "plugin:vue/vue3-recommended",
+      "plugin:cypress/recommended"
     ],
     "parserOptions": {
       "ecmaVersion": 12,
       "sourceType": "module"
     },
     "plugins": [
-      "vue"
+      "vue",
+      "cypress"
     ],
     "rules": {
       "vue/html-indent": ["error", 2],
