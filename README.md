@@ -1,7 +1,25 @@
-# Vue 3 + Vite
+# Vue WebApp
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Git Versionsstyring
+Dette projekt bruger Git som versionsstyringsværktøj og er hosted på GitHub.
 
-## Recommended IDE Setup
+## Refaktorering med ESLint
+Vi bruger ESLint til statisk kodeanalyse for at sikre, at koden opfylder god praksis og standarder. Følgende refaktoreringer er foretaget:
+- Eksempel 1
+- Eksempel 2
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+## Unit Testing
+Projektet bruger Vitest til enhedstest. Følgende tests er inkluderet:
+- Test 1
+- Test 2
+- Test 3
+- Test 4
+- Test 5
+
+## End-To-End (E2E) Testing
+Projektet bruger Cypress til E2E tests. Følgende scenarier er testet:
+- Scenarie 1
+- Scenarie 2
+
+## GitHub Flow
+Projektet bruger GitHub Actions til CI/CD. Workflowet køres automatisk ved hver commit til master-branchen.
